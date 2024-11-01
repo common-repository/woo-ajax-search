@@ -1,0 +1,134 @@
+/* Woocommerce AJAX Search CSS */
+.woosearch-search-warp{
+	position: relative;
+	width: 100%;
+	padding: 20px 0px;
+    display: inline-block;
+}
+.woosearch-title{ 
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 8px;
+}
+.woosearch-select,
+.woosearch-input-box{
+	display: inline-block;
+}
+.woosearch-select {
+	position: absolute;
+    width: 160px;
+    height: 44px;
+    background: url('../img/angle-down.png') no-repeat right;
+    border: 1px solid #444;
+    border-radius: 9px 0px 0px 9px;
+    left: 0;
+    background-size: 14px 14px;
+    background-position-x: 137px;
+    border-right: none;
+}
+.woosearch-select select{
+  	background: transparent;
+    width: 160px;
+    font-size: 16px;
+    color: #444;
+    border: 0;
+    border-radius: 0;
+    height: 41px;
+    -webkit-appearance: none;
+    text-align-last: center;
+}
+.woosearch-select select:focus,
+.woosearch-input-box input[type="text"]:focus{
+  outline: none;
+  border-color:#444;
+}
+.woosearch-input-box{
+	float: left;
+	padding-left: 160px;
+	width: 100%;
+}
+.woosearch-input-box input[type="text"]{
+	width: 100%;
+    font-size: 16px;
+    background-color: transparent;
+    border-radius: 0 9px 9px 0;
+    border: 1px solid #444;
+    height: 44px;
+}
+.woosearch-input-box.hidecat{
+    padding-left: 0px;
+}
+.woosearch-input-box.hidecat input[type="text"]{
+     border-radius: 9px 9px 9px 9px;
+}
+.woosearch-button button{
+    float: left;
+    right: 0;
+    position: absolute;
+    margin-top: 7px;
+    background: url('../img/search.png') no-repeat left;
+    background-color: #fff;
+    color: #444;
+    border: 1px solid #444;
+    font-size: 16px !important;
+    margin: 0;
+    padding: 13px 12px 12px 24px !important;
+    text-transform: none;
+    border-radius: 0 9px 9px 0px;
+    font-weight: 500;
+    background-size: 14px 14px;
+    background-position-x: 9px;
+    line-height: 16px;
+}
+.woosearch-button button .search-icon{
+    height: 14px;
+    display: inline-block;
+}
+.woosearch-submit:hover,
+.woosearch-submit:focus{
+    background-color: #fff;
+    background: url('../img/search.png') no-repeat left;
+    background-size: 14px 14px;
+    background-position-x: 9px;
+}
+.woosearch-results ul li{
+    padding-right: 20px;
+    background-image: url('../img/play-circle.png');
+    background-repeat: no-repeat;
+    background-position: 0 -.2em;
+    list-style: none;
+}
+.woosearch-input-box > div{
+    position: relative;
+    width: 100%;
+}
+.woosearch-results{
+    width: 100%;
+    position: absolute;
+    z-index: 1000;
+}
+.woosearch-results ul{
+    margin: 0;
+    padding: 0;
+}
+.woosearch-results ul li {
+    background-image: url('../img/play-circle.png');
+    background-repeat: no-repeat;
+    background-position: 12px 14px;
+    list-style: none;
+    background-size: 16px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-top: none;
+    margin: 0;
+    padding: 0;
+}
+.woosearch-results ul li a{
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: #444;
+    box-shadow: none;
+    padding: 10px 0px 10px 42px;
+}
+
